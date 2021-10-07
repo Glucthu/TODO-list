@@ -41,7 +41,7 @@ td{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1px 5px;
+    padding: 1px 10px;
     margin: 3px 0;
     font-size: 1.5em;
     color: rgb(24, 24, 24);
@@ -51,6 +51,10 @@ td{
 
 input[type="checkbox"]{
     transform: scale(2);
+}
+
+.item-inputs input{
+	margin: 0 10px;
 }
 
 @media (max-width: 800px) {

@@ -4,6 +4,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo list</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -13,9 +15,9 @@
         </nav>
     </header>
     <main>
-        <div id="insert">
-            <input type="text" name="item" id="new-item">
-            <button id="add-item" onclick="addNewItem()">Add item</button>
+        <div id="insert" class="input-group">
+            <input class="form-control" type="text" name="item" id="new-item">
+            <button class="btn btn-primary" id="add-item" onclick="addNewItem()">Add item</button>
         </div>
         <table id="items"></table>
     </main>
